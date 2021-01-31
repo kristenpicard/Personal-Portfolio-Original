@@ -47,4 +47,13 @@ a {
     text-decoration: underline;
 }
 
+.hero {
+    height: 400px;
+    width: 100%;
+    position: fixed;
+    background-image: url("../images/pexels-photo-807598.jpeg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
 
