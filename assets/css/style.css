@@ -1,5 +1,27 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+
+
+:root{
+    --headercolor1: rgb(0, 217, 255);
+    --headerback: #0e2a38 ;
 }
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--headerback);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
