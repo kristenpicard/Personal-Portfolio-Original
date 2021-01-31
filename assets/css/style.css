@@ -5,13 +5,14 @@
 }
 
 :root{
-    --headercolor1: rgb(0, 217, 255);
-    --headerback: #0e2a38 ;
+    --headercolor1: #92ccce;
+    --headerback: #31343d ;
+    --txt: #445877;
 }
 
 .header {
     margin-left: 0;
-    padding: 20px 20px 20px 0;
+    padding: 10px 20px 10px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--headerback);
 }
@@ -50,10 +51,29 @@ a {
 .hero {
     height: 400px;
     width: 100%;
-    position: fixed;
     background-image: url("../images/pexels-photo-807598.jpeg");
-    background-repeat:no-repeat;
-    background-size: cover;
 }
 
+h2 {
+    color: var(--txt);
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.test1 {
+    padding: .5% 0 0 20%;
+}
+
+aside {
+    width: 90%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
 
