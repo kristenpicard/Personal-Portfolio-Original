@@ -49,7 +49,7 @@ a {
 }
 
 .hero {
-    height: 400px;
+    height: 200px;
     width: 100%;
     background-image: url("../images/pexels-photo-807598.jpeg");
 }
@@ -61,19 +61,30 @@ h2 {
 }
 
 .test1 {
-    padding: .5% 0 0 20%;
+    margin: 0;
+    padding: 3% 0 0 12%;
+    border:none;
+    float: left;
+    text-align: right;
+    display: inline-flex;
 }
 
 aside {
     width: 90%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right;
+    padding-left: 3px;
+    margin-left: 20px;
+    float: left;
     box-shadow: inset 5px 0 5px -5px #29627e;
     color: #29627e;
 }
 
-aside > p {
-    margin: .5rem;
+aside p {
+    margin: 5px 0 5px 0;
+    padding: 0;
+    border:none;
 }
 
+.ul2 {
+    list-style-type: none;
+    display: inline-block;
+}
