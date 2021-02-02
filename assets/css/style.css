@@ -48,10 +48,18 @@ a {
     text-decoration: underline;
 }
 
-.hero {
+.imagecontainer {
     height: 200px;
     width: 100%;
     background-image: url("../images/pexels-photo-807598.jpeg");
+}
+
+.textoverimage {
+    position: relative;
+    float: right;
+    margin-top: 175px;
+    
+    color: white;
 }
 
 h2 {
@@ -60,31 +68,58 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 .test1 {
-    margin: 0;
-    padding: 3% 0 0 12%;
+    margin:0;
+    padding: 3% 3% 3% 12%;
     border:none;
-    float: left;
-    text-align: right;
+    text-align: left;
     display: inline-flex;
 }
 
+.test2 {
+    margin: 0;
+    padding: 3% 3% 3% 12%;
+    border:none;
+    text-align: left;
+    display: inline-flex; 
+}
+
+.test3 {
+    margin: 0;
+    padding: 3% 3% 3% 12%;
+    border:none;
+    text-align: left;
+    display: inline-flex; 
+}
+
+
+
 aside {
     width: 90%;
-    padding-left: 3px;
+    padding-left: 3%;
     margin-left: 20px;
-    float: left;
     box-shadow: inset 5px 0 5px -5px #29627e;
     color: #29627e;
 }
 
-aside p {
-    margin: 5px 0 5px 0;
-    padding: 0;
-    border:none;
-}
-
-.ul2 {
-    list-style-type: none;
+.test2 button1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
-}
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .logo {
+        background-image: url("../images/elephant.jpg");
+        display: block;
+        margin: 0 auto;
+        text-indent: -9999px;
+        width: 981px;
+        height: 180px;
+  }
