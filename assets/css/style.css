@@ -68,26 +68,30 @@ a {
 /* This styles the large About Me, Work and Contact Me section to the left */
 h2 {
     color:  #3f5437;
-    font-size: 50px;
+    font-size: 10vw;
     padding-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
+    max-width: 30%;
 }
 
 h3 {
     color:  #3f5437;
-    font-size: 50px;
+    font-size: 10vw;
     padding-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
+    max-width: 30%;
+
 }
 
 h4 {
     color:  #3f5437;
-    font-size: 50px;
+    font-size: 10vw;
     padding-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
+    max-width: 30%;
 }
 
 /* This formats the about me section of the body */
@@ -97,7 +101,7 @@ h4 {
     border:none;
     text-align: left;
     display: inline-flex;
-    width: 100%;
+    width: 90%;
 }
 
 .test2 {
@@ -106,7 +110,7 @@ h4 {
     border:none;
     text-align: left;
     display: inline-flex; 
-    width: 100;
+    width: 90%;
 }
 
 /* This formats the contact me section of the body */
@@ -116,27 +120,26 @@ h4 {
     border:none;
     text-align: left;
     display: inline-flex; 
-    width: 100%;
+    width: 90%;
 }
 
 /* This goes with my about me paragraphs */
 .body1 {
-    width: 90%;
+    min-width: 90%;
     border-left: 1px solid;
     padding-left: 3%;
-    
 }
 
 /* This goes with my work main section */
 .body2 {
-    width: 90%;
+    min-width: 90%;
     border-left: 1px solid;
     padding-left: 3%;
 }
 
 /* This goes with my contact me main section */
 .body3 {
-    width: 90%;
+    min-width: 90%;
     border-left: 1px solid;
     padding-left: 3%;
 }
