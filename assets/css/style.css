@@ -10,22 +10,26 @@
     --txt: #445877;
 }
 
+/* This is for my overall header */
 .header {
     margin-left: 0;
     padding: 10px 20px 10px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: var(--headerback);
+    background-color: #3f5437;
 }
+
+/* This is for the Kristen section of my header */
 
 .header h1 {
     font-size: 48px;
     padding-left: 90px;
     margin-left: 0px;
-    background-color: var(--headercolor1);
+    background-color: #b8c5a2;
     display: inline-block;
-    color: var(--headerback);
+    color: #3f5437;
 }
 
+/* This is for the About Me, Work, Contact Me, Resume section of my header  */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,47 +38,66 @@
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
+/* This keeps the header list vertical on the header */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* This gives the links the correct color */
 a {
-    color: var(--headercolor1);
-    text-decoration: underline;
+    color: #3f5437;
 }
 
-.imagecontainer {
+/* This puts the image under the header */
+.imageleaves {
     height: 200px;
     width: 100%;
-    background-image: url("../images/pexels-photo-807598.jpeg");
+    background-image: url("../images/leaves2.jpg");
+    background-size: cover;
 }
 
+/* This adds text over the image */
 .textoverimage {
     position: relative;
     float: right;
     margin-top: 175px;
-    
     color: white;
 }
 
+/* This styles the large About Me, Work and Contact Me section to the left */
 h2 {
-    color: var(--txt);
-    font-size: 48px;
+    color:  #3f5437;
+    font-size: 50px;
+    padding-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
 }
 
+h3 {
+    color:  #3f5437;
+    font-size: 50px;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+}
 
+h4 {
+    color:  #3f5437;
+    font-size: 50px;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+}
+
+/* This formats the about me section of the body */
 .test1 {
     margin:0;
     padding: 3% 3% 3% 12%;
     border:none;
     text-align: left;
     display: inline-flex;
+    width: 100%;
 }
 
 .test2 {
@@ -83,43 +106,41 @@ h2 {
     border:none;
     text-align: left;
     display: inline-flex; 
+    width: 100;
 }
 
+/* This formats the contact me section of the body */
 .test3 {
     margin: 0;
     padding: 3% 3% 3% 12%;
     border:none;
     text-align: left;
     display: inline-flex; 
+    width: 100%;
 }
 
-
-
-aside {
+/* This goes with my about me paragraphs */
+.body1 {
     width: 90%;
+    border-left: 1px solid;
     padding-left: 3%;
-    margin-left: 20px;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    color: #29627e;
+    
 }
 
-.test2 button1 {
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+/* This goes with my work main section */
+.body2 {
+    width: 90%;
+    border-left: 1px solid;
+    padding-left: 3%;
+}
 
-  .logo {
-        background-image: url("../images/elephant.jpg");
-        display: block;
-        margin: 0 auto;
-        text-indent: -9999px;
-        width: 981px;
-        height: 180px;
-  }
+/* This goes with my contact me main section */
+.body3 {
+    width: 90%;
+    border-left: 1px solid;
+    padding-left: 3%;
+}
+
+
+
+
