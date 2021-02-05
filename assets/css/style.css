@@ -3,11 +3,8 @@
     padding: 0;
     margin: 0;
 }
-
-:root{
-    --headercolor1: #92ccce;
-    --headerback: #31343d ;
-    --txt: #445877;
+.container {
+    background-color: #ffffff;
 }
 
 /* This is for my overall header */
@@ -32,32 +29,25 @@
     color: #3f5437;
     height:fit-content;
 }
-nav {
-    display: flex;
-}
+
 
 /* This is for the About Me, Work, Contact Me, Resume section of my header  */
 .header nav {
     padding-top: 15px;
     margin-right: 0px;
-    float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
+    overflow: hidden;
 }
 
+.header nav a {
+    color: #ffffff;
+    padding: 0 14px 0 14px;
+    text-decoration: none;
+    font-size: 20px;
+  }
 
 
-
-/* This keeps the header list vertical on the header */
-.header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-/* This gives the links the correct color */
-/* a {
-    color: #3f5437;
-} */
 
 /* This puts the image under the header */
 .imageleaves {
@@ -153,21 +143,20 @@ h4 {
     padding-left: 3%;
 }
 
-.pic1 {
-    padding-bottom: 5%;
-}
 
 .responsive {
     max-width: 100%;
     height: auto;
-  }
+  } 
+
 
 img {
     border: 5px solid;
-    border-radius: 20px;
+    border-radius: 30px;
     border-color: gray;
     max-height: 500px;
 }
+
 
 
 
