@@ -12,10 +12,13 @@
 
 /* This is for my overall header */
 .header {
+    width: 100%;
     margin-left: 0;
+    margin-right: 0%;
     padding: 10px 20px 10px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #3f5437;
+    display: flex;
 }
 
 /* This is for the Kristen section of my header */
@@ -23,35 +26,42 @@
 .header h1 {
     font-size: 48px;
     padding-left: 90px;
-    margin-left: 0px;
+    padding-right: 10px;
     background-color: #b8c5a2;
     display: inline-block;
     color: #3f5437;
+    height:fit-content;
+}
+nav {
+    display: flex;
 }
 
 /* This is for the About Me, Work, Contact Me, Resume section of my header  */
-.header div {
+.header nav {
     padding-top: 15px;
-    margin-right: 20px;
+    margin-right: 0px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+
+
+
 /* This keeps the header list vertical on the header */
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
 /* This gives the links the correct color */
-a {
+/* a {
     color: #3f5437;
-}
+} */
 
 /* This puts the image under the header */
 .imageleaves {
-    height: 200px;
+    height: 15vw;
     width: 100%;
     background-image: url("../images/leaves2.jpg");
     background-size: cover;
@@ -97,16 +107,15 @@ h4 {
 /* This formats the about me section of the body */
 .test1 {
     margin:0;
-    padding: 3% 3% 3% 12%;
-    border:none;
+    padding: 3% 10% 3% 12%;
     text-align: left;
     display: inline-flex;
-    width: 90%;
+    width: 100%;
 }
 
 .test2 {
     margin: 0;
-    padding: 3% 3% 3% 12%;
+    padding: 3% 10% 3% 12%;
     border:none;
     text-align: left;
     display: inline-flex; 
@@ -116,7 +125,7 @@ h4 {
 /* This formats the contact me section of the body */
 .test3 {
     margin: 0;
-    padding: 3% 3% 3% 12%;
+    padding: 3% 10% 3% 12%;
     border:none;
     text-align: left;
     display: inline-flex; 
@@ -125,7 +134,7 @@ h4 {
 
 /* This goes with my about me paragraphs */
 .body1 {
-    min-width: 90%;
+    max-width: 90%;
     border-left: 1px solid;
     padding-left: 3%;
 }
@@ -144,6 +153,21 @@ h4 {
     padding-left: 3%;
 }
 
+.pic1 {
+    padding-bottom: 5%;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+img {
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: gray;
+    max-height: 500px;
+}
 
 
 
