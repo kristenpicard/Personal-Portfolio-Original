@@ -1,10 +1,13 @@
 # Personal-Portfolio
 
-URL Here
+https://kristenpicard.github.io/Personal-Portfolio/
 
-Description
+Description:
 
-Screenshots:
+As I learn and grow as a developer, I wanted one place where I could showcase my projects and link to other pages that tell more about who I am.
 
-![Screenshot](assets/images/Screenshot.png)
-![Screenshot](assets/images/Screenshot2.png)
+This page is my first big project using HTML and CSS where I started from scratch and I look forward to improving it over time as well as completing the links once I have them ready.
+
+It was particularly challenging to create a page that is responsive to various screen sizes.  I look forward to continuing to make it even more responsive over time.
+
+I really enjoyed the creative aspect of working with CSS to style the elements and feel that after this project, I have a much deeper understanding of the various capabilities.
