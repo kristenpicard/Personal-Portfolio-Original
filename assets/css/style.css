@@ -3,9 +3,7 @@
     padding: 0;
     margin: 0;
 }
-.container {
-    background-color: #ffffff;
-}
+
 
 /* This is for my overall header */
 .header {
@@ -38,6 +36,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     overflow: hidden;
+    
 }
 
 .header nav a {
@@ -66,18 +65,18 @@
 }
 
 /* This styles the large About Me, Work and Contact Me section to the left */
-h2 {
+.test1 h2 {
     color:  #3f5437;
-    font-size: 10vw;
+    font-size: 2em;
     padding-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
     max-width: 30%;
 }
 
-h3 {
+.test2 h3 {
     color:  #3f5437;
-    font-size: 10vw;
+    font-size: 2em;
     padding-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
@@ -85,9 +84,9 @@ h3 {
 
 }
 
-h4 {
+.test3 h4 {
     color:  #3f5437;
-    font-size: 10vw;
+    font-size: 2em;
     padding-right: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: right;
@@ -124,14 +123,17 @@ h4 {
 
 /* This goes with my about me paragraphs */
 .body1 {
+    width: 90%;
     max-width: 90%;
     border-left: 1px solid;
     padding-left: 3%;
+    color:#3f5437;
 }
 
 /* This goes with my work main section */
 .body2 {
     min-width: 90%;
+    max-width: 90%;
     border-left: 1px solid;
     padding-left: 3%;
 }
@@ -139,8 +141,10 @@ h4 {
 /* This goes with my contact me main section */
 .body3 {
     min-width: 90%;
+    max-width: 90%;
     border-left: 1px solid;
     padding-left: 3%;
+    color:#3f5437; 
 }
 
 
@@ -153,9 +157,17 @@ h4 {
 img {
     border: 5px solid;
     border-radius: 30px;
-    border-color: gray;
+    border-color:#3f5437;;
     max-height: 500px;
+    transition: all 500ms ease; 
+    opacity: 1;
 }
+
+img:hover {
+    border-color: white;
+    opacity: .5;
+}
+
 
 
 
