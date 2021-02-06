@@ -5,7 +5,7 @@
 }
 
 
-/* This is for my overall header */
+/* This styles my header. */
 .header {
     width: 100%;
     margin-left: 0;
@@ -15,9 +15,6 @@
     background-color: #3f5437;
     display: flex;
 }
-
-/* This is for the Kristen section of my header */
-
 .header h1 {
     font-size: 48px;
     padding-left: 90px;
@@ -27,28 +24,21 @@
     color: #3f5437;
     height:fit-content;
 }
-
-
-/* This is for the About Me, Work, Contact Me, Resume section of my header  */
 .header nav {
     padding-top: 15px;
     margin-right: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-    overflow: hidden;
-    
+    overflow: hidden; 
 }
-
 .header nav a {
     color: #ffffff;
     padding: 0 14px 0 14px;
     text-decoration: none;
     font-size: 20px;
-  }
+}
 
-
-
-/* This puts the image under the header */
+/* This adds/styles the image under the header */
 .imageleaves {
     height: 15vw;
     width: 100%;
@@ -57,14 +47,14 @@
 }
 
 /* This adds text over the image */
-.textoverimage {
+/* .textoverimage {
     position: relative;
     float: right;
     margin-top: 175px;
     color: white;
-}
+} */
 
-/* This styles the large About Me, Work and Contact Me section to the left */
+/* This styles the About Me section. */
 .test1 h2 {
     color:  #3f5437;
     font-size: 2em;
@@ -73,27 +63,6 @@
     text-align: right;
     max-width: 30%;
 }
-
-.test2 h3 {
-    color:  #3f5437;
-    font-size: 2em;
-    padding-right: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: right;
-    max-width: 30%;
-
-}
-
-.test3 h4 {
-    color:  #3f5437;
-    font-size: 2em;
-    padding-right: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: right;
-    max-width: 30%;
-}
-
-/* This formats the about me section of the body */
 .test1 {
     margin:0;
     padding: 3% 10% 3% 12%;
@@ -101,27 +70,6 @@
     display: inline-flex;
     width: 100%;
 }
-
-.test2 {
-    margin: 0;
-    padding: 3% 10% 3% 12%;
-    border:none;
-    text-align: left;
-    display: inline-flex; 
-    width: 90%;
-}
-
-/* This formats the contact me section of the body */
-.test3 {
-    margin: 0;
-    padding: 3% 10% 3% 12%;
-    border:none;
-    text-align: left;
-    display: inline-flex; 
-    width: 90%;
-}
-
-/* This goes with my about me paragraphs */
 .body1 {
     width: 90%;
     max-width: 90%;
@@ -130,7 +78,25 @@
     color:#3f5437;
 }
 
-/* This goes with my work main section */
+
+
+/* This styles the Work section. */
+.test2 h3 {
+    color:  #3f5437;
+    font-size: 2em;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    max-width: 30%;
+}
+.test2 {
+    margin: 0;
+    padding: 3% 10% 3% 12%;
+    border:none;
+    text-align: left;
+    display: inline-flex; 
+    width: 90%;
+}
 .body2 {
     min-width: 90%;
     max-width: 90%;
@@ -138,7 +104,24 @@
     padding-left: 3%;
 }
 
-/* This goes with my contact me main section */
+
+/* This styles the Contact Me section. */
+.test3 h4 {
+    color:  #3f5437;
+    font-size: 2em;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    max-width: 30%;
+}
+.test3 {
+    margin: 0;
+    padding: 3% 10% 3% 12%;
+    border:none;
+    text-align: left;
+    display: inline-flex; 
+    width: 90%;
+}
 .body3 {
     min-width: 90%;
     max-width: 90%;
@@ -147,13 +130,11 @@
     color:#3f5437; 
 }
 
-
+/* This styles the images in the Work section. */
 .responsive {
     max-width: 100%;
     height: auto;
-  } 
-
-
+} 
 img {
     border: 5px solid;
     border-radius: 30px;
@@ -162,7 +143,6 @@ img {
     transition: all 500ms ease; 
     opacity: 1;
 }
-
 img:hover {
     border-color: white;
     opacity: .5;
